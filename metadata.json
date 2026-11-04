@@ -1,0 +1,6 @@
+{
+  "name": "معمل المهندس عمرو أحمد — مدخل الأردوينو والروبوتكس",
+  "description": "درس فيديو تعليمي احترافي مدته 10 دقائق باللهجة المصرية يقدمه المهندس عمرو أحمد لشرح Arduino UNO وتنفيذ أول مشروع عملي بدقة 4K مع تصدير الفيديو والبرزنتيشن.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

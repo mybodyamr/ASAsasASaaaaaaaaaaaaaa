@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Cairo", "Readex Pro", system-ui, sans-serif;
+  --font-display: "Cairo", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+
+  code, pre, .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
